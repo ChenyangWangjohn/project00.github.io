@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS180/280A — Project 0: Becoming Friends with Your Camera</title>
+  <meta name="description" content="Project 0 webpage with three parts and reflection areas, ready for GitHub Pages.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Project 0 — Becoming Friends with Your Camera</h1>
+      <p>CS180/280A • Fall 2025</p>
+      <div class="tags" aria-label="topic tags">
+        <span class="tag">Photography</span>
+        <span class="tag">Perspective</span>
+        <span class="tag">Focal length</span>
+        <span class="tag">Dolly Zoom</span>
+      </div>
+      <div class="btnbar no-print">
+        <a class="btn primary" href="#overview">Overview</a>
+        <a class="btn" href="#part1">Part 1</a>
+        <a class="btn" href="#part2">Part 2</a>
+        <a class="btn" href="#part3">Part 3</a>
+        <a class="btn" href="#submission">Submission</a>
+      </div>
+      <p class="no-print muted" style="margin-top:10px">
+        <strong>Project URL:</strong> project00.github.io
+      </p>
+    </div>
+  </header>
+
+  <nav class="sticky no-print" aria-label="in-page">
+    <div class="nav container">
+      <a href="#part1">Part 1</a>
+      <a href="#part2">Part 2</a>
+      <a href="#part3">Part 3</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- ======================= Part 1 ======================= -->
+    <section id="part1">
+      <h2>Part 1 — Portrait Series at Controlled Camera Offsets</h2>
+      <p class="note">
+        Distances are expressed relative to a <em>baseline</em> vantage point that yields the desired framing.
+        Negative values indicate moving closer than baseline; positive values indicate stepping back. When stepping back,
+        I increased focal length to keep face size approximately constant.
+      </p>
+
+      <div class="grid grid-4">
+        <figure>
+          <img src="images/part1-minus1.HEIC" alt="Portrait at −1 feet relative to baseline; closer, wider perspective">
+          <figcaption>(−1 feet) Closer than baseline; stronger perspective exaggeration.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/part1-0.HEIC" alt="Portrait at 0 feet: baseline vantage and framing">
+          <figcaption>(0 feet) Baseline position and framing.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/part1-plus1.HEIC" alt="Portrait at +1 feet; stepped back and zoomed to match framing">
+          <figcaption>(+1 feet) Step back ~1 ft; zoomed to maintain subject size.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/part1-plus2.HEIC" alt="Portrait at +2 feet; further reduced perspective distortion">
+          <figcaption>(+2 feet) Step back ~2 ft; proportions appear more neutral.</figcaption>
+        </figure>
+      </div>
+
+      <div class="callout" contenteditable="true" aria-label="Editable reflection for Part 1 (not saved)">
+        <h4>Reflection — Part 1</h4>
+        <p>
+          When stepping closer to the person, his facial features become more pronounced, with the nose appearing larger relative to the ears.
+          When stepping back, the facial features appear more compressed and proportional.
+          I think this is because when moving closer, the proportional distance differences between the noses and ears gets exaggerated.
+          Therefore, the nose and mouth occupy a larger visual space, drawing more attention.
+        </p>
+      </div>
+    </section>
+
+    <!-- ======================= Part 2 ======================= -->
+    <section id="part2">
+      <h2>Part 2 — Architectural Perspective Comparison</h2>
+      <div class="grid grid-2">
+        <figure>
+          <img src="images/part2-zoom.HEIC" alt="Zoomed-in urban scene shot from far away; planar, compressed look">
+          <figcaption>Zoomed from far — scene appears flatter/compressed; parallels remain nearly parallel.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/part2-nozoom.HEIC" alt="Wide-angle view from near; converging verticals and exaggerated depth">
+          <figcaption>no zoom — stronger convergence; foreground/background depth is emphasized.</figcaption>
+        </figure>
+      </div>
+
+      <div class="callout" contenteditable="true" aria-label="Editable reflection for Part 2 (not saved)">
+        <h4>Reflection — Part 2</h4>
+        <p class="muted small no-print">Note: Edits typed here are not saved to disk; copy them into the HTML before submission if needed.</p>
+        <p>
+          Similar as Part 1, moving the camera changes perspective; changing focal length only changes framing.
+          When I get close, near parts of the scene are much closer than far parts, so they project disproportionately larger.
+          When I step back, those distance differences shrink, so the scene looks more “neutral” or “compressed.”
+        </p>
+      </div>
+    </section>
+
+    <!-- ======================= Part 3 ======================= -->
+    <section id="part3">
+      <h2>Part 3 — The Dolly Zoom</h2>
+      <div class="gifwrap">
+        <img src="images/dollyzoom.gif" alt="Animated dolly zoom GIF">
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div>© 2025 John Wang</div>
+  </footer>
+</body>
+</html>
